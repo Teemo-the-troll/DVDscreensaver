@@ -21,12 +21,11 @@ public class Shaders {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return null;
     }
-    private static final String vertexShaderSource = readFile("C:/Users/mikul/IdeaProjects/DVDscreensaver/src/main/resources/vertex-shader.glsl");
+    private static final String vertexShaderSource = readFile("src/main/resources/vertex-shader.glsl");
 
-    private static final String fragmentShaderSource = readFile("C:/Users/mikul/IdeaProjects/DVDscreensaver/src/main/resources/fragment-shader.glsl");
+    private static final String fragmentShaderSource = readFile("src/main/resources/fragment-shader.glsl");
 
     public static int vertexShaderId;
     public static int fragmentShaderId;
